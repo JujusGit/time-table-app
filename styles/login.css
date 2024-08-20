@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.big-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40em;
+  width: 35em;
+  border: rgb(255, 255, 28) 3px solid;
+  padding: 4em;
+}
+
+.logo-area img{
+  height: 10em;  
+  width: 20em;
+}
+
+input{
+  width: 22em;
+  padding: 0.9em 0;
+  padding-left: 3em;
+  font-size: 17px;
+}
+
+button{
+  width: 15.5em;
+  padding: 0.9em 0.8em;
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: rgb(109, 109, 254);
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-name-area{
+  position: relative;
+}
+
+.bxs-user{
+  position: absolute;
+  top: 0.5em;
+  left: 0.6em;
+  color: rgb(99, 99, 255);
+  font-size: 25px;
+}
+
+.password-area{
+  position: relative;
+}
+
+.bxs-lock{
+  position: absolute;
+  top: 0.5em;
+  left: 0.6em;
+  color: rgb(99, 99, 255);
+  font-size: 25px;
+}
+
+p{
+  font-size: larger;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bxs-chevrons-right{
+  color: white;
+  font-size: 40px;
+  margin-left: 0.5em;
+}
+
+.show, .hide{
+  position: absolute;
+  right: 0.7em;
+  top: 0.9em;
+  width: 1.5em;
+}
+
+.disappear{
+  display: none;
+}
+
+
+.appear{
+  display: initial;
+}
+
+.identifier{
+  width: 33em;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
+
+.identifier input{
+  width: 4em;
+  padding: 0.7em;
+  font-size: large;
+}
+
+.identifier button{
+  width: 6em;
+  padding: 0.7em;
+  font-size: large;
+  margin-left: 0.7em;
+  background-color: green;
+}
+
+.errorField{
+  width: 27em;
+  height: 3em;
+  color: rgb(255, 47, 47);
+  background-color: rgb(255, 168, 168);
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7em;
+  border-radius: 4px;
+}
+
+.hide-appear{
+  display: none;
+}
+
+.appear{
+  display: initial;
+}

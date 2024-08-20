@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/login.css">
+  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="big-container">
+    <div class="identifier">
+      <input class="id-field" type="number" placeholder="ID">
+      <button class="enter-btn">ENTER</button>
+    </div>
+    <div class="logo-area">
+        <img src="images/website logo.png">
+    </div>
+    <p>FEDERAL POLYTECHNIC WAZIRI</p>
+    <div class="user-name-area">
+      <i class='bx bxs-user'></i>
+      <input class="userName" type="text" placeholder="USER NAME">
+    </div>
+    <div class="password-area">
+      <img class="hide disappear" src="images/hidden.png" alt="">
+      <img class="show" src="images/eye.png" alt="">
+      <i class='bx bxs-lock'></i>
+      <input class="password" type="password" placeholder="PASSWORD">
+    </div>
+    <div class="hide-appear">
+      <div class="errorField">
+        <p>Incorrect User Name or Password or User ID</p>
+     </div>
+    </div>
+   
+
+    <button class="button1">
+      LOG IN
+      <i class='bx bxs-chevrons-right'></i>
+    </button>
+
+    
+    <script type="module" src="scripts/login.js"></script>
+  </div>
+</body>
+</html>

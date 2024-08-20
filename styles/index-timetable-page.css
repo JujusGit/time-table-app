@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.big-con{
+  width: 40em;
+  padding: 4em;
+  border: 2px yellow solid;
+  
+}
+
+.date-field,.time-field,.title-field,.venue-field,.unit-field,.button-section, .course-field{
+  display: grid;
+  grid-template-columns: 1fr 3fr; 
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.date-field div,.time-field div,.title-field div,.venue-field div,.unit-field div,.button-section div, .course-field div{
+  border: black solid 1px;
+  padding: 0.7em;
+}
+
+.button-section{
+  display: flex;
+  justify-content:end;
+}
+
+.button-section button{
+  padding: 1em 2em;
+  margin: 0.9em;
+  border: none;
+  border-radius: 0.2em;
+  color: white;
+  font-weight: bolder;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  width: 98vw;
+}
+.header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1.2em;
+  margin-bottom: 4em;
+  border-bottom: 3.5px solid green;
+}
+
+i{
+  font-size: 37px;
+  margin-right: 2.2em;
+}
+
+.big-btn{
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.big-btn button{
+  padding: 1em 2.2em;
+  margin: 1.5em;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+
+.hide{
+  display: none;
+ }
+
+ .input-field-design{
+  padding: 0.3em 1em;
+  font-size: large;
+ }
+
+ ::placeholder{
+  color: black;
+  font-weight: bold;
+ }
+
+ select{
+  color: black;
+  font-weight: bold;
+ }
+
+ .seek{
+  display: initial;
+ }

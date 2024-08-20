@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles/timeTble.css">
+</head>
+<body>
+  <div class="big-container">
+    <div class="top">
+
+      <div style="display: flex; align-items: start;">
+        <a href="index-timetable-page.html">
+          <i class='bx bx-arrow-back'></i>
+        </a>
+      </div>
+  
+        <button class="downlodPdfBtn">
+          <p>Download PDF</p>
+          <i class='bx bxs-file-pdf' ></i>
+         </button>
+    </div>
+  
+  
+    <div id="content" class="page-layout">
+      <div class="header">
+        <img src="images/website logo.png" style="height: 7em;">
+        <span>
+          KEBBI STATE FEDERAL POLYTECHNIC WAZIRI
+        </span>
+        <span>
+         DEPARTMENT OF COMPUTER SCIENCE
+        </span>
+        <span>
+          COURSE ALLOCATION FOR 2NDA SEMISTER, 2023/2024 SESSION
+         </span>
+      </div>
+        <div class="table">
+          <div class="headings">
+            <div class="SerialNumber">SN</div>
+            <div class="courseTitle">COURSE TITLE</div>
+            <div class="courseCode">COURSE CODE</div>
+            <div class="TTVenue">VENUE</div>
+            <div class="TTTime">TIME</div>
+            <div class="TTDate">DATE</div>
+            <div class="TTUnit">UNIT</div>
+          </div>
+          <div class="content-for-pdf">
+
+          </div>
+          <div class="signed-layout" style="margin-top: 2em;">
+
+            <div class="signed" style="font-weight: bolder; font-size: larger;">
+              Signed
+            </div>
+
+            <div class="buttom"  style="display: flex; justify-content: space-between; margin-top: 2em;">
+          <div class="underline">
+            <div style="width: 17em; border-bottom: 3px black solid; margin-bottom: 2em;"></div>
+            <div style="width: 17em; border-bottom: 3px black solid;"></div>
+          </div>
+
+          <div class="date"  style="display: flex; align-items: center; font-size: larger; font-weight: bolder;">
+            Date: <div style="width: 15em; border-bottom: 3px black solid;"></div>
+          </div>
+        </div>
+        </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script type="module" src="scripts/index-mainPage2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/index-mainPage.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="main-body">
+    <div class="admin-dashboard">
+      <div class="admin-user-logout">
+        <button class="logOutBtn">
+          <i class='bx bxs-chevrons-left'></i>
+          LOG OUT
+        </button>
+      </div>
+<img src="" alt="">
+      <div class="admin-info">
+        <div class="admin-section">
+          <div class="admin-image">
+           
+          </div>
+          <div class="admin-text">
+            <div class="first">
+              <p>USER:</p> <div class="user-info"></div>
+            </div>
+           <div class="second">
+            <p>DEPT:</p> <div class="dept-info"></div>
+           </div>
+           
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <div class="header">
+      <div class="left-section">
+  
+      </div>
+      <div class="middle-section">
+        <img src="images/website logo.png" style="height: 5.5em; margin-bottom: 2em;">
+          <h3 style="color: black;">
+            KEBBI STATE FEDERAL POLYTECHNIC WAZIRI
+          </h3>
+      </div>
+      <div class="right-section">
+     
+      </div>
+    </div>
+    <div class="content">
+      <div class="input-section">
+        <div class="js-serial-number"></div>
+        <input  class="js-course-code"; type="text" placeholder="course code">
+        <input  class="js-course-title"; type="text" placeholder="course Title">
+        <input  class="js-unit"; type="number" placeholder="Unit">
+        <input  class="js-date"; type="date" placeholder="Date">
+        <select class="js-select-venue">
+          <option selected>Venue</option>
+          <option value="SLT">SLT</option>
+          <option value="SLH">SLH</option>
+          <option value="STT 1">STT 1</option>
+          <option value="STT 2">STT 2</option>
+          <option value="TLT 1">TLT 1</option>
+          <option value="TLT 2">TLT 2</option>
+          <option value="ETT">ETT</option>
+          <option value="CTT">CTT</option>
+          <option value="EDS">EDS</option>
+        </select>
+        <select class="js-select-time">
+          <option selected>Exam Time</option>
+          <option value="8:00AM - 11:00AM">Morning</option>
+          <option value="3:00PM - 6:00PM">Afternoon</option>
+        </select>
+       
+      </div> 
+      <div class="messag-section">
+        <span class="disappear js-display-message">
+          <img src="images/checkmark.png">
+          <span>Added</span>
+        </span>
+      </div>
+      <div class="button-section">
+      <a href="index-timetable-page.html">
+        <button class="btn2">
+            VIEW RECORDS
+           
+        </button>
+      </a>
+        <button class="btn3" style="background-color: rgb(95, 95, 255);">
+          SUBMIT
+          <i class='bx bx-check-double'></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="scripts/index-mainPage.js"></script>
+</body>
+</html>
